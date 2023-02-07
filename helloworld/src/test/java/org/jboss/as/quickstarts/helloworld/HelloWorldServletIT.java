@@ -74,7 +74,7 @@ public class HelloWorldServletIT {
         String[] content = response.body().split(getLineSeparator());
         assertEquals(3, content.length);
         assertEquals("<html><head><title>helloworld</title></head><body>", content[0].trim());
-        assertEquals("<h1>Hello World!</h1>", content[1].trim());
+        assertEquals("<h1>Hello World!!!</h1>", content[1].trim());
         assertEquals("</body></html>", content[2].trim());
     }
 
